@@ -162,6 +162,51 @@
     -webkit-animation-duration: 1s;
     visibility: visible;
   }
+	  
+
+	  
+box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.shopcontainer {
+  padding: 0 16px;
+}
+
+.shopcontainer::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+	  
+	  
+	  
+	  
   @keyframes slide {
     0% {
       opacity: 0;
@@ -503,7 +548,7 @@ A fejlesztés sikeresen befejeződött, amely teljes mértékben visszaigazolta 
 		  <div class="column">
 			<div class="card">
 			  <img src="hegesztodrot1.jpg" alt="Jane" style="width:100%">
-			  <div class="container">
+			  <div class="shopcontainer">
 				<h3>Hegesztödrot</h3>
 				<p class="title">Hegesztödrot</p>
 				<p>Some text that describes me lorem ipsum ipsum lorem.</p>
@@ -516,7 +561,7 @@ A fejlesztés sikeresen befejeződött, amely teljes mértékben visszaigazolta 
 		  <div class="column">
 			<div class="card">
 			  <img src="hegesztodrot2.jpg" alt="Mike" style="width:100%">
-			  <div class="container">
+			  <div class="shopcontainer">
 				<h3>Hegesztödrot</h3>
 				<p class="title">Hegesztödrot</p>
 				<p>Some text that describes me lorem ipsum ipsum lorem.</p>
@@ -528,7 +573,7 @@ A fejlesztés sikeresen befejeződött, amely teljes mértékben visszaigazolta 
 		  <div class="column">
 			<div class="card">
 			  <img src="hegesztodrot3.jpg" alt="John" style="width:100%">
-			  <div class="container">
+			  <div class="shopcontainer">
 				<<h3>Hegesztödrot</h3>
 				<p class="title">Hegesztödrot</p>
 				<p>Some text that describes me lorem ipsum ipsum lorem.</p>
@@ -540,7 +585,7 @@ A fejlesztés sikeresen befejeződött, amely teljes mértékben visszaigazolta 
 		  <div class="column">
 			<div class="card">
 			  <img src="hegesztodrot4.jpg" alt="John" style="width:100%">
-			  <div class="container">
+			  <div class="shopcontainer">
 				<h3>Hegesztödrot</h3>
 				<p class="title">Hegesztödrot</p>
 				<p>Some text that describes me lorem ipsum ipsum lorem.</p>
