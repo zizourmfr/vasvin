@@ -1,23 +1,40 @@
 VASVIN – modernizált GitHub Pages weboldal
 
-A csomag tartalma:
-- index.html – az új, kétnyelvű (magyar/német) weboldal
-- styles.css – reszponzív megjelenés
-- script.js – nyelvváltó és évszám
+Package contents:
 
-Telepítés:
-1. Készíts biztonsági másolatot a GitHub repository jelenlegi tartalmáról.
-2. Töltsd fel a három weboldalfájlt (index.html, styles.css, script.js) a repository gyökérkönyvtárába, a régiek felülírásával.
-3. A meglévő képfájlokat NE töröld. Az új oldal ezekre a fájlnevekre hivatkozik:
-   welding_wallpaper.jpg
-   Vasvin-GINOP-Plusz.jpg
-   GINOP-8.3.5-18B_Vasvin.png
-   Honlapra_VasvinKft.jpg
-   rrf-kedvezmenyezetti-infoblokk-keretes.jpg
-4. Commit/push után a GitHub Pages automatikusan deployol, ha a repository Pages beállítása erre van konfigurálva.
+    index.html – the new bilingual (Hungarian/German) website
 
-Megjegyzés:
-- Nincs webshop és nincs kapcsolatfelvételi űrlap; a kapcsolat e-mailen és telefonon érhető el.
-- A régi képes pályázati tájékoztatók eredeti képfájljai maradjanak a repositoryban.
-- A projekt szövegei a jelenleg nyilvánosan elérhető honlap információiból készültek. A GINOP Plusz projekt összegét és egyéb részleteit nem egészítettük ki ellenőrizetlen adatokkal.
-- A honlap Google Fonts betűtípusokat használ; internetkapcsolat nélkül rendszer-betűtípusokra vált.
+    styles.css – responsive styling
+
+    script.js – language switcher and year display
+
+Installation:
+
+    Create a backup of the current contents of the GitHub repository.
+
+    Upload the three website files (index.html, styles.css, and script.js) to the root directory of the repository, overwriting the existing files.
+
+    DO NOT delete the existing image files. The new website references the following filenames:
+
+        welding_wallpaper.jpg
+
+        Vasvin-GINOP-Plusz.jpg
+
+        GINOP-8.3.5-18B_Vasvin.png
+
+        Honlapra_VasvinKft.jpg
+
+        rrf-kedvezmenyezetti-infoblokk-keretes.jpg
+
+    After committing and pushing the changes, GitHub Pages will deploy the website automatically, provided the repository's Pages settings are configured accordingly.
+
+Notes:
+
+    There is no online shop or contact form; visitors can get in touch via email or telephone.
+
+    The original image files containing the old project funding information must remain in the repository.
+
+    The website content has been prepared using information currently available on the publicly accessible website. The GINOP Plusz project funding amount and other details have not been supplemented with unverified information.
+
+    The website uses Google Fonts; without an internet connection, it falls back to system fonts.
+
